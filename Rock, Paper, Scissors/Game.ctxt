@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ 1\ \=\ rock\r\n\ 2\ \=\ paper\r\n\ 3\ \=\ scissor\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=_input
+comment2.target=void\ outcome(int)
+numComments=3
