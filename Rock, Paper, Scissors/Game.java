@@ -17,7 +17,7 @@ public class Game   {
         System.out.println("Good luck, human ...");
 
         while(turn == true) {
-            System.out.print("What do you throw? [1] Rock, [2] Paper, [3] Scissors? 1");
+            System.out.print("What do you throw? [1] Rock, [2] Paper, [3] Scissors? ");
             input = sc.nextInt();
             System.out.print("");
             outcome(input);
@@ -49,11 +49,11 @@ public class Game   {
             System.out.println("A draw ... pretty good, human! I demand a rematch ...");
         }   else if(_input == 1 && (int) computer == 3 || _input == 2 && (int) computer == 1 || _input == 3 && (int) computer == 2)  {
             win = win + 1;
-            System.out.println("You threw " +you + "! I threw " + opponent + "!");
+            System.out.println("You threw " + you + "! I threw " + opponent + "!");
             System.out.println("Whaaa?? ... You beat me? RAGE!");
         }   else    {
             loss = loss + 1;
-            System.out.println("You threw " +you + "! I threw " + opponent + "!");
+            System.out.println("You threw " + you + "! I threw " + opponent + "!");
             System.out.println("I win! You are not a challenge for me ...");
         }
     }
